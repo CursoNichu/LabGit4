@@ -7,3 +7,12 @@
 - [ ] Avanzado  
 `prueba`
 > block
+```mermaid
+ graph TD;
+    Básico-->Normal1;
+    Básico-->Normal2;
+    Básico-->Normal3;
+    Normal1-->Avanzado;
+    Normal2-->Avanzado;
+    Normal3-->Avanzado;
+```
